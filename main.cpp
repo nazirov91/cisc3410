@@ -616,15 +616,6 @@ int main() {
 	search("BFS");
 	search("A*");
 	search("DFS");
-	
-	cout << "\n***********************************************************************\n";
-	cout << "\t\t\t HEURISTICS JUSTIFICATION\n";
-	cout << "\th1 heurisitic was used to process the A* search. Number of\n"
-		<< "misplaced tiles is calculated and set as cost of the node.\n"
-		<< "This methods was used in the algorithm becuase the program is\n"
-		<< "significantly simple. However, it is true that Manhattan Distance\n"
-		<< "is essentially better than h1(misplace tiles).";
-	cout << "\n***********************************************************************\n"; 
 
 }
 
